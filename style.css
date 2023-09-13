@@ -112,6 +112,10 @@
     padding: 50px 15px;
     color: rgb(21, 10, 10);
 }
+.aboutme img{
+    width: 100px;
+    height: 100px; 
+}
 .aboutme h3{
     padding: 10px 10px;
 }
@@ -122,7 +126,7 @@
 }
 .skrilsection{
     text-align: center;
-    padding: 10px 18px;
+    padding: 20px 18px;
 }
 .sectionskil2{
     float: right;
@@ -130,23 +134,66 @@
 .mainskill{
     display: flex;
     align-items: center;
-    padding: 10px 240px;
+    padding: 10px 500px;
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
     grid-gap: 20px; 
+    text-align:center;
 }
 .sectionskil{
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
     max-width: 300px;
     margin: auto;
     text-align: center;
-    font-family: arial;
+    margin-top: 20px;
 }
 .skilimg{
     position: relative;
-    width:  50px;
-    height: 50px;
+    width:  100px;
+    height: 100px;
     background-position: 50% 50%;
-    background-repeat:   no-repeat;
-    background-size:     cover;
+    background-repeat: no-repeat;
+    background-size: cover;
+    padding: 10px 10px;
+}
+.submitbtn input {
+    background-color: rgb(10, 139, 11);
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+.submitbtn input:hover{
+    background-color: #f40f29;
+}
+.contacth1{
+    text-align: center;
+    padding:20px 18px;
+}
+.contactme{
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px 10px;
+}
+.inputall input{
+    align-items:center;
+    width: 50%; 
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+.textarea1 textarea{
+    width: 50%; 
+    padding: 12px;
+    border: 1px solid #ccc; 
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical;
 }
