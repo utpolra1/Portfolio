@@ -46,6 +46,10 @@
     background-size: cover;
     background-position: center;
 }
+.btn-primary{
+    background-color: rgb(233, 134, 20);
+    padding: 10px 10px;
+}
 .bannertext{
     font-size: large;
     color: white;
@@ -69,7 +73,7 @@
     font-family: arial;
 }
   
-  .card button {
+.card button {
     border: none;
     outline: 0;
     padding: 12px;
@@ -81,7 +85,7 @@
     font-size: 18px;
   }
   
-  .card button:hover {
+.card button:hover {
     opacity: 1;
   }
 .cardall{
@@ -115,4 +119,34 @@
     width: 50;
     padding: 50px 18px;
     align-items: center;
+}
+.skrilsection{
+    text-align: center;
+    padding: 10px 18px;
+}
+.sectionskil2{
+    float: right;
+}
+.mainskill{
+    display: flex;
+    align-items: center;
+    padding: 10px 240px;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+    grid-gap: 20px; 
+}
+.sectionskil{
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 300px;
+    margin: auto;
+    text-align: center;
+    font-family: arial;
+}
+.skilimg{
+    position: relative;
+    width:  50px;
+    height: 50px;
+    background-position: 50% 50%;
+    background-repeat:   no-repeat;
+    background-size:     cover;
 }
