@@ -47,8 +47,11 @@
     background-position: center;
 }
 .btn-primary{
-    background-color: rgb(233, 134, 20);
+    background-color: white;
     padding: 10px 10px;
+}
+.btn-primary:hover{
+    background-color: #f81606;
 }
 .bannertext{
     font-size: large;
@@ -78,7 +81,7 @@
     outline: 0;
     padding: 12px;
     color: white;
-    background-color: #5112ff;
+    background-color: rgb(59, 11, 218);
     text-align: center;
     cursor: pointer;
     width: 100%;
@@ -105,24 +108,39 @@
 .ccard{
     float: right;
 }
-.aboutsec{
-    font-size: larger;
-    text-align: center;
-    font-weight: 500;
-    padding: 50px 15px;
-    color: rgb(21, 10, 10);
+.aboutme{
+    width: 40%;
+    float: left;
+    margin-left: 5%;
+    padding-left: 2%;
+    padding: 10px 20px;
+    align-items: center;
 }
-.aboutme img{
-    width: 100px;
-    height: 100px; 
-}
-.aboutme h3{
-    padding: 10px 10px;
+.aboutme h1{
+    padding: 30px 20px;
 }
 .aboutme p{
-    width: 50;
-    padding: 50px 18px;
-    align-items: center;
+    padding: 5px 10px;
+}
+.Develop{
+    border: 1px solid grey;
+    height: 330px;
+    border-radius: 10px;
+    border-color: rgb(179, 179, 185);
+}
+.buton{
+    text-decoration: none;
+    background-image: linear-gradient(45deg, lightSalmon, tomato);
+    padding: 10px 20px;
+    border-radius:5px;
+    color: white;
+    font-weight: 500px;
+}
+.butonme{
+    padding: 20px 40px;
+}
+.aboutme img{
+    width: 50%;
 }
 .skrilsection{
     text-align: center;
@@ -132,6 +150,7 @@
     float: right;
 }
 .mainskill{
+    border-radius: 10px;
     display: flex;
     align-items: center;
     padding: 10px 500px;
@@ -161,6 +180,7 @@
     max-width: 500px;
     margin: auto;
     text-align: center;
+    border-radius:5px;
 }
 .submitbtn{
     text-align: center;
@@ -177,7 +197,7 @@ form{
     display: block;
 }
 .submitbtn input:hover{
-    background-color: #f40f29;
+    background-color: #f81606;
 }
 .contacth1{
     text-align: center;
@@ -185,10 +205,11 @@ form{
 }
 .contactme{
     border-radius: 5px;
-    background-color: #5d06ea;
+    background-color: rgb(196, 190, 190);
     padding: 20px 80px;
     max-width: 600px;
     align-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 .inputall input{
     align-items:center;
@@ -212,7 +233,6 @@ form{
     resize: vertical;
 }
 .footer {
-    position: fixed;
     left: 0;
     bottom: 0;
     width: 100%;
