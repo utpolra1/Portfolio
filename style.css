@@ -156,6 +156,15 @@
     background-size: cover;
     padding: 10px 10px;
 }
+.frombody{
+    padding: 7px 8px;
+    max-width: 500px;
+    margin: auto;
+    text-align: center;
+}
+.submitbtn{
+    text-align: center;
+}
 .submitbtn input {
     background-color: rgb(10, 139, 11);
     color: white;
@@ -163,6 +172,9 @@
     border: none;
     border-radius: 4px;
     cursor: pointer;
+}
+form{
+    display: block;
 }
 .submitbtn input:hover{
     background-color: #f40f29;
@@ -173,14 +185,16 @@
 }
 .contactme{
     border-radius: 5px;
-    background-color: #f2f2f2;
-    padding: 20px 10px;
+    background-color: #5d06ea;
+    padding: 20px 80px;
+    max-width: 600px;
+    align-items: center;
 }
 .inputall input{
     align-items:center;
-    width: 50%; 
+    width: 100%; 
     padding: 12px;
-    border: 1px solid #ccc; 
+    border: 1px solid #0925e0; 
     border-radius: 4px;
     box-sizing: border-box;
     margin-top: 6px; 
@@ -188,7 +202,7 @@
     resize: vertical;
   }
 .textarea1 textarea{
-    width: 50%; 
+    width: 100%; 
     padding: 12px;
     border: 1px solid #ccc; 
     border-radius: 4px;
@@ -197,3 +211,12 @@
     margin-bottom: 16px;
     resize: vertical;
 }
+.footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(3, 33, 130);
+    color: white;
+    text-align: center;
+  }
